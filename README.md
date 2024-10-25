@@ -16,7 +16,7 @@ We want to create a program that can query the lawyers on the Davis Polk website
 
 ## Level 1 Challenge
 
-Your task is to write a program that returns a list of all lawyers who have worked on a case with a TV network.
+Your task is to write a program that returns a list of all lawyers who have **worked on a case with a TV network.**
 
 ### Expected Output
 Your program should produce a list or file containing the names and relevant information of lawyers who meet the criteria.
