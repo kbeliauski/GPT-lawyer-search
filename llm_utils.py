@@ -5,7 +5,7 @@ PRIMARY_MODEL = 'gpt-4o'
 MINI_MODEL = 'gpt-4o-mini'
 EMBEDDING_MODEL_LARGE = "text-embedding-3-large"
 EMBEDDING_MODEL_SMALL = "text-embedding-3-small"
-OPENAI_KEY = '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'
+OPENAI_KEY = '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'
 
 # Initialize OpenAI client
 openai_client = OpenAI(api_key=OPENAI_KEY)
