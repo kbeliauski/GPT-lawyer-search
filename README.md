@@ -8,15 +8,34 @@ The goal is to develop a tool that can search for lawyers on their website with 
 
 ## Task Description
 
-We want to create a program that can query the lawyers on the Davis Polk website and filter them based on specific criteria. For this challenge, we'll focus on finding lawyers who have worked on cases involving TV networks.
+We want to create a program that can query the lawyers on the Davis Polk website and filter them based on a specific query.
 
-### Examples:
-- A lawyer who has worked with a TV network: https://www.davispolk.com/lawyers/sheila-adams-james
-- A lawyer who hasn't (for comparison): https://www.davispolk.com/lawyers/faisal-baloch
+### Example queries that you should be able to support:
+- Lawyers named David
+- Lawyers who went to Yale
+- Lawyers who worked on a case with a TV network
+- Lawyers who clerked for the Supreme Court
+- Lawyers who graduated law school after 2015
+- Lawyers who have represented pharmaceutical companies
+... and so on.
 
-## Level 1 Challenge
+## Constraints
+- Latency is **extremely** important. Not only time until all results are returned, but also time until the first result is returned.
+- You must be able to query multiple queries back-to-back quickly.
+
+## Level 1: Support one query
 
 Your task is to write a program that returns a list of all lawyers who have **worked on a case with a TV network.**
+
+## Level 2: Support multiple queries
+
+You now have a while loop, where you can keep querying the program with new queries.
+
+## Level 3: Latency optimizations
+
+For example, "lawyers who went to Yale" is a much simpler query than "lawyers who worked on a case for a TV network". It should thus be faster.
+
+Consider how embeddings could be used. Consider how keywords could be used.
 
 ### Expected Output
 Your program should produce a list or file containing the names and relevant information of lawyers who meet the criteria.
