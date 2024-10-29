@@ -65,6 +65,9 @@ Your program should produce a list or file containing the names and relevant inf
 - Pre-process the profiles (convert to JSON maybe, clean the useless text)
 - Pre-process the prompts
 
+## Miscellaneous
+I made an OpenAI key just for this interview with a pretty low daily limit. If you run out of credits, feel free to reach out to me at david@noon.ai, and I'll try to respond ASAP.
+
 ## Provided Files
 
 - `README.md`: This file, containing challenge instructions.
