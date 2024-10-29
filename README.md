@@ -57,7 +57,13 @@ Your program should produce a list or file containing the names and relevant inf
 - Use Python for your implementation.
 - You may use any libraries listed in the `requirements.txt` file.
 - Feel free to use Cursor, ChatGPT, internet, etc.
+- In fact, please use Cursor. This will make it much faster for you to build this
 - Efficiency and latency are extremely important.
+
+## Ideas of directions to go in
+- Make the prompt better. Create benchmarks, test it, etc.
+- Pre-process the profiles (convert to JSON maybe, clean the useless text)
+- Pre-process the prompts
 
 ## Provided Files
 
