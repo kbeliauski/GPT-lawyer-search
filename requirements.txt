@@ -3,3 +3,5 @@ lxml
 beautifulsoup4
 requests
 numpy
+tiktoken
+tqdm
